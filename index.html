@@ -7,7 +7,16 @@
   </head>
   <body>
     <div class="container">
+      <h3>Current time is:</h3>
+      <div id="time"></div>
 
+      <h3>Set an Alarm</h3>
+      <form id="alarm-form">
+        <label for="alarm">Time:</label>
+        <input id="alarm" type="time">
+        <button class="btn btn-success" type="submit">Save</button>
+      </form>
+      <div id="saved-alarm"></div>
     </div>
   </body>
 </html>
